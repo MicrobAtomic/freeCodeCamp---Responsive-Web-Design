@@ -1,0 +1,53 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<link rel="stylesheet" href="styles.css">
+
+  <head>
+    <h1 id="title">Build a Survey Form</h1>
+    <p id="description">Just a short survey for a test</p>
+  </head>
+  <body>
+    <section>
+      <form id="survey-form">
+        <fieldset>
+        <label for="name" id="name-label" >Name:
+          <input placeholder="Name" id="name" name="name" type="text" required /></label>
+        <label for="email" id="email-label">Email: 
+          <input placeholder="Email" id="email" name="email" type="email" required /></label>
+        <label for="numer" id="number-label">Number: 
+          <input placeholder="Number" id="number" name="number" type="number" min="1" max="130" /></label>
+        </fieldset>
+      <select id="dropdown" type="dropdown">
+        <option > option1 </option>
+        <option > option2 </option>
+      </select>
+      <input name="animal_company" value="dog" checked type="radio"> dog
+      <input name="animal_company" value="cat" type="radio"> cat
+      <input name="animal_savage" value="lyon" checked type="radio"> lyon
+      <input name="animal_savage" value="elephant" type="radio"> elephant
+    <form>
+      <input type="checkbox" value="hate" name="hate">
+      <input type="checkbox" value="love" name="love">
+      
+    
+      <label for="details">Details:
+          <textarea id="details" name="details" rows="3" cols="30" placeholder="I need to be rich."></textarea>
+      </label>
+      <button id="submit" type="submit" value="Submit" />
+    </form>
+    
+    </section>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
